@@ -6,13 +6,14 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Other",
 	"name" : "Modders tool pack",
-	"version" : "1.0.0",
+	"version" : "1.0.1",
 	"compatibility" :
 	{
 		"min" : "1.5"
 	},
 	"changelog" :
 	{
+		"1.0.1"   : [ "SoD Template Editor added" ]
 		"1.0.0"   : [ "Initial release" ]
 	}
 }
