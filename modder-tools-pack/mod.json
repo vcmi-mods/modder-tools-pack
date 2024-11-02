@@ -1,0 +1,18 @@
+{
+	"author" : "Various",
+	"contact" : "https://discord.gg/chBT42V",
+	"description" : "Collection of tools and templates for modders",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"modType" : "Other",
+	"name" : "Modders tool pack",
+	"version" : "1.0.0",
+	"compatibility" :
+	{
+		"min" : "1.5"
+	},
+	"changelog" :
+	{
+		"1.0.0"   : [ "Initial release" ]
+	}
+}
