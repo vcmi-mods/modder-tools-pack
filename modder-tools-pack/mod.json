@@ -13,7 +13,7 @@
 	},
 	"changelog" :
 	{
-		"1.0.1"   : [ "SoD Template Editor added" ]
+		"1.0.1"   : [ "SoD Template Editor added" ],
 		"1.0.0"   : [ "Initial release" ]
 	}
 }
