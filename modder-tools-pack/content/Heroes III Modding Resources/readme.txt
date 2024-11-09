@@ -25,9 +25,32 @@ Please let me know if you'd like me to create/upload more icons from other mods 
   alternate background is taken from the town's in-game appearance, whereas the original features slightly different (perhaps unfinished) scenery.
   
 === CHANGELOG ===
+09/NOV/2024
++ Added "Shatter Destruction", "Shatter Duration", and "Shatter Summoning" secondary skill & specialty icons from unused HOTA content
+	• No large secondary skill icons yet
++ Added Courtyard mod-specific specialties
++ Added Tarnum mod-specific specialties
+
+04/NOV/2024
++ Added mod-specific specialties folder with Pavilion subfolder
+
+03/NOV/2024
++ Added "Spell Seal" icons from unused HOTA content
+
+31/OCT/2024
++ Added Tides of War spell & Wide Breath specialty icons
++ Added Hexes & Intimidation (ToW) secondary skill icons
+
+30/OCT/2024
++ Bone Dragon specialty icon added
+
+29/OCT/2024
++ Various blank icons added
+
 22/OCT/2024
 + Added skill bonus icons
 + Added blank bonus icon
+• Minor folder restructuring
 
 17/OCT/2024
 + Spell scrolls & book icons added
