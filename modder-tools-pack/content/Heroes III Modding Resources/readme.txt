@@ -25,6 +25,9 @@ Please let me know if you'd like me to create/upload more icons from other mods 
   alternate background is taken from the town's in-game appearance, whereas the original features slightly different (perhaps unfinished) scenery.
   
 === CHANGELOG ===
+10/NOV/2024
++ Added Forge mod-specific specialties
+
 09/NOV/2024
 + Added "Shatter Destruction", "Shatter Duration", and "Shatter Summoning" secondary skill & specialty icons from unused HOTA content
 	• No large secondary skill icons yet
