@@ -6,13 +6,14 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Other",
 	"name" : "Modders tool pack",
-	"version" : "1.0.4",
+	"version" : "1.0.5",
 	"compatibility" :
 	{
 		"min" : "1.5"
 	},
 	"changelog" :
 	{
+		"1.0.5"   : [ "h3 towns as psd layers folder added" ],
 		"1.0.4"   : [ "Def to json updated" ],
 		"1.0.3"   : [ "Def to json instrument added" ],
 		"1.0.2"   : [ "Modding Resources update" ],
