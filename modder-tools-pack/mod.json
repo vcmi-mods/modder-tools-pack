@@ -1,23 +1,28 @@
 {
+	"name" : "Modders' Tool Pack",
+	"description" : "A collection of tools and templates for modders",
 	"author" : "Various",
 	"contact" : "https://discord.gg/chBT42V",
-	"description" : "Collection of tools and templates for modders",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Other",
-	"name" : "Modders tool pack",
-	"version" : "1.0.5",
+	"version" : "1.0.6",
 	"compatibility" :
 	{
 		"min" : "1.5"
 	},
 	"changelog" :
 	{
+		"1.0.6"   : [ "Added HotA.dat editor", "Czech translation by George King" ],
 		"1.0.5"   : [ "h3 towns as psd layers folder added" ],
 		"1.0.4"   : [ "Def to json updated" ],
 		"1.0.3"   : [ "Def to json instrument added" ],
 		"1.0.2"   : [ "Modding Resources update" ],
 		"1.0.1"   : [ "SoD Template Editor added" ],
 		"1.0.0"   : [ "Initial release" ]
+	},
+	"czech" : {
+		"name": "Sada nástrojů pro modery",
+		"description": "Sada nástrojů a šablon pro tvůrce modifikací"
 	}
 }
