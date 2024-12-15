@@ -1,7 +1,8 @@
 	[Help]
 Caption	Def Preview Help
-Memo1.Lines.Strings	Author: Sergey Rozhenko
-http://www.grayface.chat.ru
+Memo1.Lines.Strings	Def Preview v%VERSION%
+Author: Sergey Rozhenko
+http://sites.google.com/site/sergroj/
 sergroj@mail.ru
 
 

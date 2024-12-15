@@ -2,8 +2,9 @@
 Caption	Справка Def Preview
 GlobalCharset	RUSSIAN_CHARSET
 EditsCharset	RUSSIAN_CHARSET
-Memo1.Lines.Strings	Автор: Роженко Сергей
-http://www.grayface.chat.ru
+Memo1.Lines.Strings	Def Preview v%VERSION%
+Автор: Роженко Сергей
+http://sites.google.com/site/sergroj/
 sergroj@mail.ru
 
 
@@ -28,7 +29,7 @@ Open1.Caption	Открыть
 SaveAs1.Caption	Сохранить как...
 Exit1.Caption	Выход
 Edit1.Caption	Правка
-ExportPictures1.Caption	Экспорт Картинок
+ExportPictures1.Caption	Экспорт картинок
 ExportDefList1.Caption	Создать DefList для DefMaker'а
 ExtractAll1.Caption	Распаковать все для DefTool
 LoadGroupsNumbers1.Caption	Загрузить номера групп
@@ -86,4 +87,9 @@ Groups44.Items.Strings	Вверх
 Идет Вправо
 Идет Вниз-Вправо
 Идет Вниз
+Groups49.Items.Strings	Стоит
+Подергиввется
+Потеря
+Радость
+Колдовство
 
