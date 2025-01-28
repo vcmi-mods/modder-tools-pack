@@ -25,6 +25,17 @@ Please let me know if you'd like me to create/upload more icons from other mods 
   alternate background is taken from the town's in-game appearance, whereas the original features slightly different (perhaps unfinished) scenery.
   
 === CHANGELOG ===
+28/JAN/2025
++ Added Cathedral Town mod-specific specialties
++ Added blank small spell scroll icon
+
+22/DEC/2024
++ Added Fairy Town mod-specific specialties
+
+12/NOV/2024
++ Added Retreat mod-specific specialties 
+• Moved WoG specialties to mod-specific folder
+
 10/NOV/2024
 + Added Forge mod-specific specialties
 
