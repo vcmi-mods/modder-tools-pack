@@ -18,7 +18,7 @@ Please let me know if you'd like me to create/upload more icons from other mods 
 	  the specialty! I'd say that if it works differently to a standard secondary skill specialty, use the Expert icon to emphasise that!
 - Ancient Behemoths are the icon for the Behemoth specialty by default; I've included the standard Behemoth icon for the sake of it, especially since
   HOTA changed Magic Elementals -> Psychic Elementals and Cerberi -> Hell Hounds in their images.
-- The alternate creature backgrounds are reconstructed using the game's resources directly from where the original backgrounds are found but differ
+- The alternate creature backgrounds are reconstructed using the game's resources directly from where the original backgrounds are found but differ from
   the standard creature background image; for example, neutral1 is an area from a combat background, but if we compare the standard creature background
   image against the combat background, we see that it is slightly different. My neutral1 alternative image is a combination of the original combat
   background and the default creature background, as the mountains and ground are separated by 1px more in the default creature background. My Conflux
