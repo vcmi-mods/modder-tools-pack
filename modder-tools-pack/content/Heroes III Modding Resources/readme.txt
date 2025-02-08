@@ -25,6 +25,9 @@ Please let me know if you'd like me to create/upload more icons from other mods 
   alternate background is taken from the town's in-game appearance, whereas the original features slightly different (perhaps unfinished) scenery.
   
 === CHANGELOG ===
+08/FEB/2025
++ Added Asylum Town mod-specific specialties
+
 28/JAN/2025
 + Added Cathedral Town mod-specific specialties
 + Added blank small spell scroll icon
