@@ -1,0 +1,1 @@
+Contains many useful logos from all possible Heroes III variants.
