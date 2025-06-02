@@ -13,7 +13,7 @@
 	},
 	"changelog" :
 	{
-		"1.0.9"   : [ "Updated DEF2JSON with command line processing support" ],
+		"1.0.9"   : [ "Updated DEF2JSON with command line processing support + minor update" ],
 		"1.0.8"   : [ "Added VCMIExtract with .pac support", "Recompiled DEF2JSON to make smaller EXE", "Added Heroes 3 Logos XCF" ],
 		"1.0.7"   : [ "Added DEFRecolor" ],
 		"1.0.6"   : [ "Added HotA.dat editor", "Czech translation by George King" ],
