@@ -6,13 +6,14 @@
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Other",
-	"version" : "1.0.9",
+	"version" : "1.1.1",
 	"compatibility" :
 	{
 		"min" : "1.5"
 	},
 	"changelog" :
 	{
+		"1.1.1"   : [ "Updated DefPreview and MMArchive with fixes by Imahero" ],
 		"1.1.0"   : [ "Updated VCMIExtract with direct PCX to PNG convert support" ],
 		"1.0.9"   : [ "Updated DEF2JSON with command line processing support + minor update" ],
 		"1.0.8"   : [ "Added VCMIExtract with .pac support", "Recompiled DEF2JSON to make smaller EXE", "Added Heroes 3 Logos XCF" ],
