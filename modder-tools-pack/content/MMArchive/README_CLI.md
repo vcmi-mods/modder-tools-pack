@@ -10,7 +10,7 @@ This is a command-line version of the MMArchive GUI application, designed to wor
 
 ## Version
 
-Current version: 1.2.5
+Current version: 1.2.6
 
 ## Features
 
@@ -19,7 +19,7 @@ The command-line version provides these archive operations:
 1. **List** - Display all files in an archive
 2. **Extract** - Extract files from an archive (with optional file type filtering)
 3. **Add** - Add a single file to an archive
-4. **ExtractDef** - Extract DEF files for DefTool (creates HDL and BMP files)
+4. **ExtractDef** - Extract DEF files for DefTool from archives or individual DEF files (creates HDL and BMP files)
 5. **Help** - Display usage information
 
 ## Usage
@@ -33,7 +33,7 @@ MMArchiveCLI.exe <operation> <archive> [options]
 - `list <archive>` - List all files in the archive
 - `extract <archive> [-o output_dir] [-f *.ext]` - Extract files with optional output directory and file filter
 - `add <archive> <file>` - Add a file to the archive
-- `extractdef <archive> [-o output_dir]` - Extract DEF files for DefTool with HDL and BMP files
+- `extractdef <archive|def_file> [-o output_dir]` - Extract DEF files for DefTool with HDL and BMP files
 - `version` - Show version information
 - `help` - Show help information
 
@@ -76,6 +76,9 @@ MMArchiveCLI.exe extractdef sprites.lod
 
 # Extract DEF files to custom directory
 MMArchiveCLI.exe extractdef sprites.lod -o my_deftool_output
+
+# Extract individual DEF file for DefTool
+MMArchiveCLI.exe extractdef sprite.def -o deftool
 
 # Show version
 MMArchiveCLI.exe version

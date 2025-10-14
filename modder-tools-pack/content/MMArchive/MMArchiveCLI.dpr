@@ -6,7 +6,7 @@ uses
   SysUtils, Classes, Forms, RSUtils, RSSysUtils, RSLod, RSDef, IniFiles;
 
 const
-  CLI_VERSION = '1.2.5';
+  CLI_VERSION = '1.2.6';
 
 type
   TOperation = (opList, opExtract, opAdd, opHelp, opExtractDef, opVersion);
@@ -113,7 +113,7 @@ begin
   WriteLn('  list <archive>                    - List files in archive');
   WriteLn('  extract <archive> [-o output_dir] [-f *.ext] - Extract files');
   WriteLn('  add <archive> <file>              - Add file to archive');
-  WriteLn('  extractdef <archive> [-o output_dir] - Extract DEF files for DefTool');
+  WriteLn('  extractdef <archive|def_file> [-o output_dir] - Extract DEF files for DefTool');
   WriteLn('  version                           - Show version information');
   WriteLn('  help                              - Show this help');
   WriteLn;
@@ -126,6 +126,7 @@ begin
   WriteLn('  MMArchiveCLI.exe extract data.lod -o extracted -f *.bmp');
   WriteLn('  MMArchiveCLI.exe add data.lod newfile.txt');
   WriteLn('  MMArchiveCLI.exe extractdef sprites.lod -o deftool');
+  WriteLn('  MMArchiveCLI.exe extractdef sprite.def -o deftool');
   WriteLn('  MMArchiveCLI.exe version');
 end;
 
@@ -316,12 +317,14 @@ var
   ExtractedFile: string;
   DefData: TRSByteArray;
   DefWrapper: TRSDefWrapper;
+  FileStream: TFileStream;
 begin
   try
-    Archive := RSLoadMMArchive(ArchivePath);
-    try
-      Archive.RawFiles.IgnoreUnzipErrors := IgnoreUnzipErrors;
-      WriteLn('Extracting DEF files for DefTool to: ', OutputPath);
+    // Check if input is a DEF file or archive
+    if SameText(ExtractFileExt(ArchivePath), '.def') then
+    begin
+      // Handle individual DEF file
+      WriteLn('Extracting DEF file for DefTool to: ', OutputPath);
       
       if not CreateDirectoryPath(OutputPath) then
       begin
@@ -329,22 +332,61 @@ begin
         ExitCode := 1;
         Exit;
       end;
-        
-      for i := 0 to Archive.Count - 1 do
-      begin
-        if SameText(ExtractFileExt(Archive.Names[i]), '.def') then
+      
+      try
+        FileStream := TFileStream.Create(ArchivePath, fmOpenRead);
         try
-          ExtractedFile := IncludeTrailingPathDelimiter(OutputPath) + ChangeFileExt(Archive.Names[i], '') + '\';
-          if not ForceDirectories(ExtractedFile) then
-          begin
-            WriteLn('Error creating directory: ', ExtractedFile);
-            continue;
-          end;
+          SetLength(DefData, FileStream.Size);
+          FileStream.ReadBuffer(DefData[0], FileStream.Size);
+        finally
+          FileStream.Free;
+        end;
+        
+        DefWrapper := TRSDefWrapper.Create(DefData);
+        try
+          DefWrapper.ExtractDefToolList(IncludeTrailingPathDelimiter(OutputPath) + ChangeFileExt(ExtractFileName(ArchivePath), '.hdl'), ExtractWithShadow, ExtractIn24Bits);
+          WriteLn('Extracted DEF: ', ExtractFileName(ArchivePath));
+        finally
+          DefWrapper.Free;
+        end;
+      except
+        on E: Exception do
+        begin
+          WriteLn('Error extracting DEF file: ', E.Message);
+          ExitCode := 1;
+        end;
+      end;
+    end
+    else
+    begin
+      // Handle archive file
+      Archive := RSLoadMMArchive(ArchivePath);
+      try
+        Archive.RawFiles.IgnoreUnzipErrors := IgnoreUnzipErrors;
+        WriteLn('Extracting DEF files for DefTool to: ', OutputPath);
+        
+        if not CreateDirectoryPath(OutputPath) then
+        begin
+          WriteLn('Error: Unable to create directory: ', OutputPath);
+          ExitCode := 1;
+          Exit;
+        end;
           
-          Archive.ExtractArrayOrBmp(i, DefData).Free;
-          
-          DefWrapper := TRSDefWrapper.Create(DefData);
+        for i := 0 to Archive.Count - 1 do
+        begin
+          if SameText(ExtractFileExt(Archive.Names[i]), '.def') then
           try
+            ExtractedFile := IncludeTrailingPathDelimiter(OutputPath) + ChangeFileExt(Archive.Names[i], '') + '\';
+            if not ForceDirectories(ExtractedFile) then
+            begin
+              WriteLn('Error creating directory: ', ExtractedFile);
+              continue;
+            end;
+            
+            Archive.ExtractArrayOrBmp(i, DefData).Free;
+            
+            DefWrapper := TRSDefWrapper.Create(DefData);
+            try
             DefWrapper.ExtractDefToolList(ExtractedFile + ChangeFileExt(Archive.Names[i], '.hdl'), ExtractWithShadow, ExtractIn24Bits);
             WriteLn('Extracted DEF: ', Archive.Names[i]);
           finally
@@ -358,6 +400,7 @@ begin
       WriteLn('DEF extraction complete.');
     finally
       Archive.Free;
+    end;
     end;
   except
     on E: Exception do
