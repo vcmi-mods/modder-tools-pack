@@ -1,0 +1,72 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.lod\shell\VCMIExtract]
+@="Extract using VCMIExtract"
+"Icon"="shell32.dll,45"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.lod\shell\VCMIExtract\command]
+@="\"vcmiextract.exe\" \"%1\""
+
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.pac\shell\VCMIExtract]
+@="Extract using VCMIExtract"
+"Icon"="shell32.dll,45"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.pac\shell\VCMIExtract\command]
+@="\"vcmiextract.exe\" \"%1\""
+
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.snd\shell\VCMIExtract]
+@="Extract using VCMIExtract"
+"Icon"="shell32.dll,45"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.snd\shell\VCMIExtract\command]
+@="\"vcmiextract.exe\" \"%1\""
+
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.vid\shell\VCMIExtract]
+@="Extract using VCMIExtract"
+"Icon"="shell32.dll,45"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.vid\shell\VCMIExtract\command]
+@="\"vcmiextract.exe\" \"%1\""
+
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.pak\shell\VCMIExtract]
+@="Extract using VCMIExtract"
+"Icon"="shell32.dll,45"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.pak\shell\VCMIExtract\command]
+@="\"vcmiextract.exe\" \"%1\""
+
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.def\shell\VCMIExtract]
+@="Extract using VCMIExtract"
+"Icon"="shell32.dll,45"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.def\shell\VCMIExtract\command]
+@="\"vcmiextract.exe\" \"%1\""
+
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.d32\shell\VCMIExtract]
+@="Extract using VCMIExtract"
+"Icon"="shell32.dll,45"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.d32\shell\VCMIExtract\command]
+@="\"vcmiextract.exe\" \"%1\""
+
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.pcx\shell\VCMIExtract]
+@="Extract using VCMIExtract"
+"Icon"="shell32.dll,45"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.pcx\shell\VCMIExtract\command]
+@="\"vcmiextract.exe\" \"%1\""
+
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.p32\shell\VCMIExtract]
+@="Extract using VCMIExtract"
+"Icon"="shell32.dll,45"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.p32\shell\VCMIExtract\command]
+@="\"vcmiextract.exe\" \"%1\""
