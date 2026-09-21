@@ -1,0 +1,159 @@
+	[TRSLodEdt]
+GlobalCharset	EASTEUROPE_CHARSET
+SDeleteQuestion	Opravdu chcete odstranit „%s“ z archivu?
+SDeleteManyQuestion	Opravdu chcete odstranit vybrané soubory z archivu?
+SNewFolder	Nová sloka
+SExtractAs	Extrahovat jako...
+SExtractTo	Extrahovat do...
+SEPaletteNotFound	V bitmaps.lod nebyla nalezena vhodná paleta
+SEPaletteMustExist	Obrázek musí obsahovat 256 barev a jeho paleta musí bıt pøidána do bitmaps.lod
+SPalette	Paleta: %d
+SPaletteChanged	Paleta: %d (zobrazena: %d)
+SFavorites	Oblíbené
+SRenameOverwriteQuestion	Soubor s názvem „%s“ ji existuje. Chcete jej pøepsat?
+SExtractOverwriteFileQuestion	Následující soubory ji existují. Chcete je pøepsat?
+SExtractOverwriteDirQuestion	Následující sloky ji existují. Chcete je pøepsat?
+SPleaseWaitRebuilding	Èekejte, archiv se znovu sestavuje...
+SPleaseWait	Èekejte...
+RSSpeedButton1.Hint	Roztáhnout
+RSSpeedButton2.Hint	Pøehrát
+OpenDialog1.Filter	Archivy Might & Magic nebo Heroes III (*.lod; *.lwd; *.snd; *.vid; *.mm6; *.mm7; *.dod; *.pac)|*.lod;*.lwd;*.snd;*.vid;*.mm6;*.mm7;*.dod;*.pac|Všechny soubory|*.*
+OpenDialogMerge.Filter	Archivy Might & Magic nebo Heroes III (*.lod; *.lwd; *.snd; *.vid; *.mm6; *.mm7; *.dod; *.pac)|*.lod;*.lwd;*.snd;*.vid;*.mm6;*.mm7;*.dod;*.pac|Všechny soubory|*.*
+SaveDialogSaveSelectionAs.Filter	Archivy Might & Magic nebo Heroes III (*.lod; *.lwd; *.snd; *.vid; *.mm6; *.mm7; *.dod; *.pac)|*.lod;*.lwd;*.snd;*.vid;*.mm6;*.mm7;*.dod;*.pac|Všechny soubory|*.*
+SaveDialogSaveSelectionAs.Title	Vytvoøit archiv z vybranıch souborù
+SaveSelectionAsArchive1.Caption	Vytvoøit archiv z vybranıch souborù
+AddFolder1.Caption	Vytvoøit sloku
+AddFile1.Caption	Pøidat soubor
+MergeFavorites1.Caption	Pøidat oblíbené z...
+Cut1.Caption	&Vyjmout
+Copy1.Caption	&Kopírovat
+Copy2.Caption	&Kopírovat
+Copy3.Caption	&Kopírovat
+Paste1.Caption	V&loit
+Paste2.Caption	V&loit
+Paste3.Caption	V&loit
+Delete1.Caption	&Odstranit
+Delete2.Caption	&Odstranit
+Delete3.Caption	&Odstranit
+Rename1.Caption	Pøejmenovat
+Rename2.Caption	Pøejmenovat
+Rename3.Caption	Pøejmenovat
+Extract1.Caption	Extrahovat
+AddtoFavorites1.Caption	Pøidat k oblíbenım
+OpenDialog2.Filter	Oblíbené (*.lf)|*.lf|Všechny soubory|*.*
+File1.Caption	Soubor
+New1.Caption	Novı
+Open1.Caption	Otevøít
+RecentFiles1.Caption	Nedávné soubory
+Exit1.Caption	Konec
+Edit1.Caption	Úpravy
+Add1.Caption	Pøidat...
+Extract2.Caption	Extrahovat
+Rebuild1.Caption	Optimalizovat
+AddtoFavorites2.Caption	Pøidat k oblíbenım
+Def1.Caption	DEF
+OriginalPalette1.Caption	Paleta DEF
+NormalPalette1.Caption	Standardní paleta
+TransparentBackground1.Caption	Prùhledné pozadí
+ShowAll1.Caption	Všechny typy
+Spells1.Caption	Kouzla
+ShowCreatures1.Caption	Jednotky
+ShowMapObjects1.Caption	Objekty na mapì
+ShowHeroes1.Caption	Hrdinové
+ShowTerrain1.Caption	Terény
+ShowCursors1.Caption	Kurzory
+ShowInterface1.Caption	Rozhraní
+ShowCombatHeroes1.Caption	Hrdinové v boji
+Palette1.Caption	Paleta
+Default1.Caption	Vıchozí
+FirstKind1.Caption	První typ
+SecondKind1.Caption	Druhı typ
+ThirdKind1.Caption	Tøetí typ
+Options1.Caption	Monosti
+Sortbyextension1.Caption	Øadit podle pøípony
+Backup1.Caption	Zálohovat pùvodní soubory
+IgnoreUnpackingErrors1.Caption	Ignorovat chyby pøi rozbalování
+Language1.Caption	Jazyk
+Associate1.Caption	Pøiøadit k souborùm *.lod
+Associate2.Caption	Pøiøadit k souborùm *.snd
+Associate3.Caption	Pøiøadit k souborùm *.vid
+Associate4.Caption	Pøiøadit k souborùm *.pac
+Associate5.Caption	Pøiøadit k souborùm *.lwd
+Help1.Caption	Nápovìda
+SaveDialogExport.Filter	Všechny soubory|*.*
+SaveDialogExport.Title	Extrahovat
+OpenDialogImport.Filter	Všechny soubory|*.*
+OpenDialogImport.Title	Pøidat soubory
+SaveDialogNew.Filter	Libovolnı archiv Heroes III (*.lod; *.snd; *.vid; *.pac)|*.lod;*.snd;*.vid;*.pac|Archiv LOD Heroes III (*.lod; *.pac)|*.lod;*.pac|Zvukovı archiv Heroes III (*.snd)|*.snd|Zvukovı archiv MM (*.snd)|*.snd|Videoarchiv Heroes III nebo MM 7–8 (*.vid)|*.vid|Videoarchiv MM 6 (*.vid)|*.vid|Archiv Bitmaps pro MM (*.lod;*.lwd)|*.bitmaps.lod;*.lod;*.lwd|Archiv Icons pro MM (*.lod)|*.lod|Archiv Sprites pro MM (*.lod)|*.lod|Archiv English pro MM 8 (*.lod)|*.lod|Archiv Games pro MM 7–8 (*.lod)|*.lod|Archiv Games pro MM 6 (*.lod)|*.lod|Uloená hra MM 7–8 (*.lod;*.mm7;*.dod)|*.lod;*.mm7;*.dod|Uloená hra MM 6 (*.lod;*.mm6)|*.lod;*.mm6|Všechny soubory|*.*
+SaveDialogNew.Title	Novı archiv
+OpenDialogBitmapsLod.Title	Vyberte archiv bitmaps.lod
+MergeWith1.Caption	Slouèit s archivem...
+OpenDialogMerge.Title	Vyberte archiv, jeho obsah se má pøidat
+CompareTo1.Caption	Porovnat s...
+OpenDialogCompare.Title	Vyberte archiv pro porovnání
+CommonExtractionFolder1.Caption	Spoleèná sloka pro extrahované soubory
+CopyName1.Caption	Kopírovat název
+ExtractForDefTool1.Caption	Extrahovat pro DefTool...
+ExtractForDefTool2.Caption	Extrahovat pro DefTool...
+ExtractWithExternalShadow1.Caption	Extrahovat stín samostatnì
+ExtractIn24Bits1.Caption	Extrahovat ve 24 bitech
+StoreAsText1.Caption	Uloit soubor oblíbenıch v textovém formátu
+MoveUp1.Caption	Posunout nahoru
+MoveDown1.Caption	Posunout dolù
+SortByName1.Caption	Øadit podle názvu
+SortTreeByName1.Caption	Seøadit celı strom podle názvu
+Select1.Caption	Vybrat
+ComboExtFilter.Hint	Filtr podle pøípony
+Button1.Caption	OK
+Button2.Caption	Storno
+
+	[Help]
+GlobalCharset	EASTEUROPE_CHARSET
+EditsCharset	EASTEUROPE_CHARSET
+Memo1.Text	MMArchive v%VERSION%
+(c) Sergey Rozhenko
+http://sites.google.com/site/sergroj/
+sergroj@mail.ru
+
+Tento program umoòuje upravovat libovolné archivy her Might & Magic 6–8 a Heroes III s vıjimkou souborù *.hwl.
+Zde jsou vysvìtleny ménì zøejmé funkce programu a zpùsob jejich pouití.
+
+Dvojklikem na okno náhledu je zvìtšíte tak, aby odpovídalo velikosti obrázku.
+
+
+[ Optimalizace archivù ]
+Nahrazování nebo odstraòování souborù zpùsobuje fragmentaci archivu a zvìtšování jeho velikosti. Pokud archiv pøíliš naroste, pouijte tlaèítko „Optimalizovat“, které jeho velikost zmenší na minimum.
+Pøi úpravách archivu .vid je optimalizace obzvláš dùleitá. Dokud archiv neoptimalizujete, nepouívejte k práci s ním jiné nástroje. Archivy .vid toti neobsahují informace o velikostech souborù, a proto je MMArchive zapisuje na konec archivu. Ostatní nástroje tyto informace nerozpoznají a budou soubory povaovat za vìtší, ne ve skuteènosti jsou.
+
+
+[ Slouèení s archivem ]
+Pøíkaz „Slouèit s archivem“ pøidá do aktuálního archivu všechny soubory z jiného archivu. Pøidávané soubory nahradí existující soubory se stejnımi názvy.
+
+
+[ Pøidávání souborù ]
+Soubory mùete pøidat tlaèítkem „Pøidat“ nebo jejich pøetaením do okna MMArchive.
+V archivu h3bitmap.lod hry Heroes III mají obrázky pøíponu „.pcx“, ale mùete pouít i bitmapy. Program je automaticky pøejmenuje na „.pcx“.
+
+Pøi pøidávání obrázkù do archivù M&M vdy pouívejte jednoduchou pøíponu „.bmp“. Bitmapy v M&M mají vdy 256 barev. Pøi pøidání bitmapy do icons.lod ji MMArchive pøevede na 256 barev.
+Pøi pøidávání obrázkù do sprites.lod nebo bitmaps.lod se mùe zobrazit chyba tıkající se jejich palet. Obrázky v sprites.lod toti neobsahují vlastní paletu, ale pouze èíslo palety odkazující na soubor „PAL*“ v bitmaps.lod. Také bitmapy v bitmaps.lod, pøestoe vlastní paletu obsahují, odkazují na index „PAL*“. Kadá bitmapa v tìchto archivech proto musí mít odpovídající paletu pøidanou do bitmaps.lod.
+Má-li obrázek novou paletu, musíte ji nejprve pøidat do bitmaps.lod pod nìkterım nepouitım indexem. Program pøi pøidávání bitmap pøíslušnou paletu automaticky najde.
+Poznámka: mm8leveleditor pouívá pøípony „.sprite.bmp“, „.tga.bmp“ a „.4tga.0.bmp“ a „.4tga.3.bmp“. MMArchive vdy pouívá „.bmp“. Zmenšené úrovnì „.4tga.1.bmp“ a „.4tga.3.bmp“ se vytváøejí automaticky, take se o nì nemusíte starat.
+
+Chcete-li pøidat paletu, vezmìte bitmapu s touto paletou a pøejmenujte ji na poadovanı název palety BEZ pøípony, napøíklad „PAL722“. Poté ji mùete bìnım zpùsobem importovat. Palety lze importovat také ve formátu „.act“.
+S paletami souvisí ještì jedno omezení. Pùvodnì bylo moné v jedné mapì pouít pouze 50 palet. Autor toto omezení v MMExtension odstranil — vıchozí limit je 200 a lze jej nastavit na libovolnou hodnotu. Pøesto je vhodné znovu pouívat stejné palety u bitmap s podobnımi barvami, pokud se mají spoleènì objevit v jedné úrovni.
+
+
+[ Sprity monster v M&M ]
+Sprity monster jsou zvláštní tím, e pouívají tøi palety urèené v souboru dsft.bin. Jejich èísla obvykle následují za èíslem palety pøiøazené pøíslušnému spritu v sprites.lod. Vybrat je mùete v nabídce Paleta. Následuje nìkolik postupù pro vytvoøení monstra:
+
+Nejjednodušší zpùsob:
+Vyrenderujte snímky jedné varianty monstra a pøeveïte je na 256 barev se spoleènou paletou, v ní je barva pozadí na prvním indexu. Pouít mùete napøíklad DefTool v2: http://sites.google.com/site/sergroj/wog/DefTool2.rar?attredirects=0. Jeden ze snímkù ulote pod názvem první palety.
+Poté vytvoøte další dvì palety. Upravte jeden snímek pomocí efektù, jako jsou Odstín/Sytost/Jas a Jas/Kontrast. Tyto efekty by mìly mìnit pouze paletu, nikoli indexy barev pøiøazené jednotlivım pixelùm bitmapy — takto se chová napøíklad Corel Photo-Paint. Stejnım zpùsobem vytvoøte ještì jednu paletu a poté vše importujte.
+
+Nejzajímavìjší zpùsob:
+Jedna sada snímkù a tøi palety jsou omezením, které si NWC zavedlo kvùli menším nárokùm na virtuální pamì, menší velikosti sprites.lod a rychlejšímu naèítání. Tyto vıhody se tıkají pøedevším softwarového vykreslování. Toto omezení dodrovat nemusíte. Mùete vytvoøit tøi varianty modelu monstra, které se liší barvou, tvarem nebo èímkoli jinım. Povaujte je za tøi rùzná monstra: vyrenderujte je pod rùznımi názvy a kadé pøeveïte na 256 barev s vlastní paletou, napøíklad pomocí DefTool v2. Poté je importujte a upravte Data\Tables\SFT.txt, kterı vytváøí MMExtension. Nástroj usnadòující tento postup mùete získat od autora nebo Vladimira Maestra. Váš mod bude pravdìpodobnì vyadovat autorùv patch, protoe odstraòuje omezení poètu naètenıch spritù a mnoství virtuální pamìti dostupné hrám M&M.
+
+Nejobtínìjší zpùsob:
+Pokud si monstra prohlédnete s volbou „Vıchozí“ v nabídce Paleta, uvidíte, jak je vykreslovalo NWC. Vìtšinou obsahují jednu oblast, která mezi variantami nemìní barvu, a jednu nebo více oblastí, které se pøebarvují. Tyto oblasti mezi sebou nesdílejí podobné barvy.
+
+Caption	Nápovìda

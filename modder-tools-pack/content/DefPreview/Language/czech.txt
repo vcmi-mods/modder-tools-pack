@@ -1,0 +1,96 @@
+	[Help]
+Caption	Nápovìda Def Preview
+GlobalCharset	EASTEUROPE_CHARSET
+EditsCharset	EASTEUROPE_CHARSET
+Memo1.Lines.Strings	Def Preview v%VERSION%
+Autor: Sergey Rozhenko
+http://sites.google.com/site/sergroj/
+sergroj@mail.ru
+
+
+1)   Po výbìru skupiny se zobrazí její animace.
+2)   Èísla skupin obrázkù lze zmìnit výbìrem skupiny a opìtovným kliknutím na ni.
+3)   Typ souboru DEF lze zmìnit kliknutím na jeho název ve stavovém øádku.
+4)   Položka „Naèíst èísla skupin“ zkopíruje èísla skupin z jiného souboru DEF.
+
+
+
+
+Zvláštní podìkování Alexandru Karpekovi
+
+	[Main Form]
+GlobalCharset	EASTEUROPE_CHARSET
+SGroup	Skupina
+SWrongCompression	Chyba: Komprese neodpovídá typu
+SUnusedType	(nepoužívaný typ)
+
+File1.Caption	Soubor
+Open1.Caption	Otevøít
+SaveAs1.Caption	Uložit jako...
+Exit1.Caption	Konec
+Edit1.Caption	Úpravy
+ExportPictures1.Caption	Exportovat obrázky
+ExportDefList1.Caption	Vytvoøit DefList pro DefMaker
+ExtractAll1.Caption	Extrahovat vše pro DefTool
+LoadGroupsNumbers1.Caption	Naèíst èísla skupin
+Options1.Caption	Možnosti
+Stretch1.Caption	Roztáhnout
+Transparent1.Caption	Prùhledné pozadí
+NoShadow1.Caption	Odstranit stín a obrys
+Extractin24bits1.Caption	Extrahovat ve 24 bitech
+Language1.Caption	Jazyk
+Associate1.Caption	Pøiøadit k souborùm .def
+Help1.Caption	Nápovìda
+N40Sprite1.Caption	$4&0 Kouzlo
+
+N42Creature1.Caption	$4&2 Jednotka
+N43Advobj1.Caption	$4&3 Objekt na mapì
+N44Hero1.Caption	$4&4 Hrdina
+N45Tileset1.Caption	$4&5 Terén
+N46Pointer1.Caption	$4&6 Kurzor
+N47Interface1.Caption	$4&7 Rozhraní
+
+N49CombatHero1.Caption	$4&9 Hrdina v boji
+StatusBar1.Panels.0.Text	Šíøka
+StatusBar1.Panels.2.Text	Výška
+StatusBar1.Panels.4.Text	Typ
+StatusBar1.Panels.6.Text	Komprese
+StatusBar1.Panels.8.Text	Snímek
+Groups42.Items.Strings	Pohyb
+Neèinnost
+Stání
+Zranìní
+Obrana
+Smrt
+Nepoužitá smrt
+Otoèení doleva
+Otoèení doprava
+Otoèení doleva
+Otoèení doprava
+Útok nahoru
+Útok pøímo
+Útok dolù
+Støelba nahoru
+Støelba pøímo
+Støelba dolù
+Útok pøes 2 pole nahoru
+Útok pøes 2 pole pøímo
+Útok pøes 2 pole dolù
+Zaèátek pohybu
+Konec pohybu
+Groups44.Items.Strings	Nahoru
+Nahoru doprava
+Doprava
+Dolù doprava
+Dolù
+Pohyb nahoru
+Pohyb nahoru doprava
+Pohyb doprava
+Pohyb dolù doprava
+Pohyb dolù
+Groups49.Items.Strings	Stání
+Neèinnost
+Porážka
+Vítìzství
+Sesílání kouzla
+
